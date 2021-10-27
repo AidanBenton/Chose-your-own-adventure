@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,9 +76,126 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Biting.webp" />
+    <None Include="Resources\Fire.webp" />
+    <None Include="Resources\Helicopter.webp" />
+    <None Include="Resources\Mountain veiw.webp" />
+    <None Include="Resources\Smoke.webp" />
+    <None Include="Resources\Snake meat.webp" />
+    <None Include="Resources\StarveFive.webp" />
+    <None Include="Resources\StarveFour.webp" />
+    <None Include="Resources\Trees.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Axe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cannopie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cliff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dont eat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForkAndKnife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Life Jacket.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Machete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkey Win.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mountain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoEating.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrangutanFight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrangutanFriend.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrangutanLoseOne.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OranutanLoseTwo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\River.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake dead.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splinter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StarveThree.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StarveTwo.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreeDrawing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Under water.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trees.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake Meat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MountainVeiw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Helicopter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StarveSix.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

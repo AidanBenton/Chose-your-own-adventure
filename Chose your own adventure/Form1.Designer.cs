@@ -37,7 +37,11 @@ namespace Chose_your_own_adventure
             this.optionOneButton = new System.Windows.Forms.Button();
             this.optionTwoButton = new System.Windows.Forms.Button();
             this.optionTheeButton = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // outputLabel
@@ -52,9 +56,10 @@ namespace Chose_your_own_adventure
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 85);
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 85);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(318, 240);
+            this.pictureBox1.Size = new System.Drawing.Size(240, 240);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -62,7 +67,7 @@ namespace Chose_your_own_adventure
             // 
             this.optionOneLabel.AutoSize = true;
             this.optionOneLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.optionOneLabel.Location = new System.Drawing.Point(79, 350);
+            this.optionOneLabel.Location = new System.Drawing.Point(59, 350);
             this.optionOneLabel.Name = "optionOneLabel";
             this.optionOneLabel.Size = new System.Drawing.Size(35, 13);
             this.optionOneLabel.TabIndex = 2;
@@ -72,7 +77,7 @@ namespace Chose_your_own_adventure
             // 
             this.optionTwoLabel.AutoSize = true;
             this.optionTwoLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.optionTwoLabel.Location = new System.Drawing.Point(79, 399);
+            this.optionTwoLabel.Location = new System.Drawing.Point(315, 350);
             this.optionTwoLabel.Name = "optionTwoLabel";
             this.optionTwoLabel.Size = new System.Drawing.Size(35, 13);
             this.optionTwoLabel.TabIndex = 5;
@@ -82,7 +87,7 @@ namespace Chose_your_own_adventure
             // 
             this.optionThreeLabel.AutoSize = true;
             this.optionThreeLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.optionThreeLabel.Location = new System.Drawing.Point(79, 448);
+            this.optionThreeLabel.Location = new System.Drawing.Point(570, 350);
             this.optionThreeLabel.Name = "optionThreeLabel";
             this.optionThreeLabel.Size = new System.Drawing.Size(35, 13);
             this.optionThreeLabel.TabIndex = 7;
@@ -90,7 +95,7 @@ namespace Chose_your_own_adventure
             // 
             // optionOneButton
             // 
-            this.optionOneButton.Location = new System.Drawing.Point(32, 340);
+            this.optionOneButton.Location = new System.Drawing.Point(12, 340);
             this.optionOneButton.Name = "optionOneButton";
             this.optionOneButton.Size = new System.Drawing.Size(31, 33);
             this.optionOneButton.TabIndex = 8;
@@ -99,7 +104,7 @@ namespace Chose_your_own_adventure
             // 
             // optionTwoButton
             // 
-            this.optionTwoButton.Location = new System.Drawing.Point(31, 389);
+            this.optionTwoButton.Location = new System.Drawing.Point(267, 340);
             this.optionTwoButton.Name = "optionTwoButton";
             this.optionTwoButton.Size = new System.Drawing.Size(31, 33);
             this.optionTwoButton.TabIndex = 9;
@@ -108,19 +113,43 @@ namespace Chose_your_own_adventure
             // 
             // optionTheeButton
             // 
-            this.optionTheeButton.Location = new System.Drawing.Point(31, 438);
+            this.optionTheeButton.Location = new System.Drawing.Point(522, 340);
             this.optionTheeButton.Name = "optionTheeButton";
             this.optionTheeButton.Size = new System.Drawing.Size(31, 33);
             this.optionTheeButton.TabIndex = 10;
             this.optionTheeButton.UseVisualStyleBackColor = true;
             this.optionTheeButton.Click += new System.EventHandler(this.optionTheeButton_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(267, 85);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(240, 240);
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Location = new System.Drawing.Point(522, 85);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(240, 240);
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // Form1
             // 
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(383, 436);
+            this.ClientSize = new System.Drawing.Size(736, 385);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.optionTheeButton);
             this.Controls.Add(this.optionTwoButton);
             this.Controls.Add(this.optionOneButton);
@@ -132,6 +161,8 @@ namespace Chose_your_own_adventure
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,6 +178,8 @@ namespace Chose_your_own_adventure
         private System.Windows.Forms.Button optionOneButton;
         private System.Windows.Forms.Button optionTwoButton;
         private System.Windows.Forms.Button optionTheeButton;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
