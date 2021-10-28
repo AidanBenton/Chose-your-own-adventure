@@ -29,11 +29,9 @@ namespace Chose_your_own_adventure
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.outputLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.optionOneLabel = new System.Windows.Forms.Label();
-            this.optionTwoLabel = new System.Windows.Forms.Label();
-            this.optionThreeLabel = new System.Windows.Forms.Label();
             this.optionOneButton = new System.Windows.Forms.Button();
             this.optionTwoButton = new System.Windows.Forms.Button();
             this.optionTheeButton = new System.Windows.Forms.Button();
@@ -46,10 +44,11 @@ namespace Chose_your_own_adventure
             // 
             // outputLabel
             // 
+            this.outputLabel.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.outputLabel.Location = new System.Drawing.Point(27, 23);
+            this.outputLabel.Location = new System.Drawing.Point(8, 9);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(321, 59);
+            this.outputLabel.Size = new System.Drawing.Size(495, 73);
             this.outputLabel.TabIndex = 0;
             this.outputLabel.Text = "label1";
             // 
@@ -63,61 +62,49 @@ namespace Chose_your_own_adventure
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // optionOneLabel
-            // 
-            this.optionOneLabel.AutoSize = true;
-            this.optionOneLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.optionOneLabel.Location = new System.Drawing.Point(59, 350);
-            this.optionOneLabel.Name = "optionOneLabel";
-            this.optionOneLabel.Size = new System.Drawing.Size(35, 13);
-            this.optionOneLabel.TabIndex = 2;
-            this.optionOneLabel.Text = "label1";
-            // 
-            // optionTwoLabel
-            // 
-            this.optionTwoLabel.AutoSize = true;
-            this.optionTwoLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.optionTwoLabel.Location = new System.Drawing.Point(315, 350);
-            this.optionTwoLabel.Name = "optionTwoLabel";
-            this.optionTwoLabel.Size = new System.Drawing.Size(35, 13);
-            this.optionTwoLabel.TabIndex = 5;
-            this.optionTwoLabel.Text = "label2";
-            // 
-            // optionThreeLabel
-            // 
-            this.optionThreeLabel.AutoSize = true;
-            this.optionThreeLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.optionThreeLabel.Location = new System.Drawing.Point(570, 350);
-            this.optionThreeLabel.Name = "optionThreeLabel";
-            this.optionThreeLabel.Size = new System.Drawing.Size(35, 13);
-            this.optionThreeLabel.TabIndex = 7;
-            this.optionThreeLabel.Text = "label3";
-            // 
             // optionOneButton
             // 
+            this.optionOneButton.BackColor = System.Drawing.SystemColors.WindowText;
+            this.optionOneButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.optionOneButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.optionOneButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optionOneButton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F);
+            this.optionOneButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.optionOneButton.Location = new System.Drawing.Point(12, 340);
             this.optionOneButton.Name = "optionOneButton";
-            this.optionOneButton.Size = new System.Drawing.Size(31, 33);
+            this.optionOneButton.Size = new System.Drawing.Size(107, 33);
             this.optionOneButton.TabIndex = 8;
-            this.optionOneButton.UseVisualStyleBackColor = true;
+            this.optionOneButton.UseVisualStyleBackColor = false;
             this.optionOneButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // optionTwoButton
             // 
+            this.optionTwoButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.optionTwoButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.optionTwoButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.optionTwoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optionTwoButton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F);
+            this.optionTwoButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.optionTwoButton.Location = new System.Drawing.Point(267, 340);
             this.optionTwoButton.Name = "optionTwoButton";
-            this.optionTwoButton.Size = new System.Drawing.Size(31, 33);
+            this.optionTwoButton.Size = new System.Drawing.Size(107, 33);
             this.optionTwoButton.TabIndex = 9;
-            this.optionTwoButton.UseVisualStyleBackColor = true;
+            this.optionTwoButton.UseVisualStyleBackColor = false;
             this.optionTwoButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // optionTheeButton
             // 
+            this.optionTheeButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.optionTheeButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.optionTheeButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.optionTheeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.optionTheeButton.Font = new System.Drawing.Font("Palatino Linotype", 8.25F);
+            this.optionTheeButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.optionTheeButton.Location = new System.Drawing.Point(522, 340);
             this.optionTheeButton.Name = "optionTheeButton";
-            this.optionTheeButton.Size = new System.Drawing.Size(31, 33);
+            this.optionTheeButton.Size = new System.Drawing.Size(107, 33);
             this.optionTheeButton.TabIndex = 10;
-            this.optionTheeButton.UseVisualStyleBackColor = true;
+            this.optionTheeButton.UseVisualStyleBackColor = false;
             this.optionTheeButton.Click += new System.EventHandler(this.optionTheeButton_Click);
             // 
             // pictureBox2
@@ -139,7 +126,6 @@ namespace Chose_your_own_adventure
             this.pictureBox3.Size = new System.Drawing.Size(240, 240);
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // Form1
             // 
@@ -153,18 +139,15 @@ namespace Chose_your_own_adventure
             this.Controls.Add(this.optionTheeButton);
             this.Controls.Add(this.optionTwoButton);
             this.Controls.Add(this.optionOneButton);
-            this.Controls.Add(this.optionThreeLabel);
-            this.Controls.Add(this.optionTwoLabel);
-            this.Controls.Add(this.optionOneLabel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.outputLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Adventure game";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -172,9 +155,6 @@ namespace Chose_your_own_adventure
 
         private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label optionOneLabel;
-        private System.Windows.Forms.Label optionTwoLabel;
-        private System.Windows.Forms.Label optionThreeLabel;
         private System.Windows.Forms.Button optionOneButton;
         private System.Windows.Forms.Button optionTwoButton;
         private System.Windows.Forms.Button optionTheeButton;

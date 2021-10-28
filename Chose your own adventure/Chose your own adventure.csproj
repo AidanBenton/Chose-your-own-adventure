@@ -197,5 +197,20 @@
   <ItemGroup>
     <None Include="Resources\StarveSix.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\581731__studio1212__forest-stream-new-zealand-04.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\439538__ethanchase7744__epic-sword-clang-2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54959__northern-rebel__splash-loop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\257878__zmobie__short-wave-radio-noise-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\219816__saraonsins__monkey-scream.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

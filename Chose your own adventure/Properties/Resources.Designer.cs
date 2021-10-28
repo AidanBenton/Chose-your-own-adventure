@@ -191,6 +191,15 @@ namespace Chose_your_own_adventure.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Heli {
+            get {
+                return ResourceManager.GetStream("Heli", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] Helicopter {
@@ -247,6 +256,15 @@ namespace Chose_your_own_adventure.Properties {
             get {
                 object obj = ResourceManager.GetObject("Machete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Monkey {
+            get {
+                return ResourceManager.GetStream("Monkey", resourceCulture);
             }
         }
         
@@ -472,6 +490,24 @@ namespace Chose_your_own_adventure.Properties {
         internal static string StarveTwo {
             get {
                 return ResourceManager.GetString("StarveTwo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Stream {
+            get {
+                return ResourceManager.GetStream("Stream", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Sword {
+            get {
+                return ResourceManager.GetStream("Sword", resourceCulture);
             }
         }
         
